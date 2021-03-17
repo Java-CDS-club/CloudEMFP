@@ -46,5 +46,15 @@
         </AttrNames>
       </nodeDefinition>
     </tree>
+    <mapTheme IterBinding="Map_Sch_Detail_Att_Master1Iterator" id="Map_Sch_Detail_Att_Master1"
+              xmlns="http://xmlns.oracle.com/adfm/dvt">
+      <mapThemeDataMap convert="false" mapThemeType="point">
+        <data>
+          <item value="TotSum" label="Detail :"/>
+        </data>
+        <item type="lat_long" longitude="Longitude" latitude="Latitude" label="ClusterNo"/>
+        <item type="category" value="ColFlag"/>
+      </mapThemeDataMap>
+    </mapTheme>
   </bindings>
 </pageDefinition>
